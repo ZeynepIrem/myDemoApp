@@ -156,22 +156,22 @@ public class App
 		Integer[] inputL1 = (Integer[])inputList1.toArray(new Integer[inputList1.size()]);
 		int[] i1 = new int[inputL1.length];
 		for(int i=0; i<inputL1.length; i++)
-			i1[0] = (int)inputL1[0];
+			i1[i] = (int)inputL1[i];
 			
 		Integer[] inputL2 =  (Integer[])inputList2.toArray(new Integer[inputList2.size()]);
 		int[] i2 = new int[inputL2.length];
 		for(int i=0; i<inputL2.length; i++)
-			i2[0] = (int)inputL2[0];
+			i2[i] = (int)inputL2[i];
 
 		Integer[] inputL3 =  (Integer[])inputList3.toArray(new Integer[inputList3.size()]);
 		int[] i3 = new int[inputL3.length];
 		for(int i=0; i<inputL3.length; i++)
-			i3[0] = inputL3[0];
+			i3[i] = inputL3[i];
 
 		Integer[] inputL4 =  (Integer[])inputList4.toArray(new Integer[inputList4.size()]);
 		int[] i4 = new int[inputL4.length];
 		for(int i=0; i<inputL4.length; i++)
-			i4[0] = inputL4[0];
+			i4[i] = inputL4[i];
 
 
           int result = App.sortedMin(i1, i2, i3, i4);
