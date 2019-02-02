@@ -21,3 +21,5 @@ testForAtLeastOneNullOrEmpty() 	//if there are at least one empty or null array
 testSort1()			//check for correct sorting
 testSort2()			//check for correct sorting (if there are at least one empty or null array)
 
+
+[![Build Status](https://travis-ci.org/ZeynepIrem/myDemoApp.svg?branch=master)](https://travis-ci.org/ZeynepIrem/myDemoApp)
